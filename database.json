@@ -1,0 +1,535 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "name": "Mayor's Office",
+      "code": "MO",
+      "head_name": "Hon. Johnielle Keith Pasion Nieto",
+      "head_designation": "Municipal Mayor",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 2,
+      "name": "Budget Office",
+      "code": "MBO",
+      "head_name": "Melodina C. Urbiztondo",
+      "head_designation": "Municipal Budget Officer",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 3,
+      "name": "Accounting Office",
+      "code": "MACCT",
+      "head_name": "Cornelia C. Fernandez",
+      "head_designation": "Municipal Accountant",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 4,
+      "name": "General Services Office",
+      "code": "GSO",
+      "head_name": " Ma. Theresa",
+      "head_designation": "General Services Officer",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 5,
+      "name": "Municipal Health Office",
+      "code": "MHO",
+      "head_name": "Dr. Elena S. Perez",
+      "head_designation": "Municipal Health Officer",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 6,
+      "name": "Engineering Office",
+      "code": "ME",
+      "head_name": "Engr. Manuel C. Aquino",
+      "head_designation": "Municipal Engineer",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "ppmp_items": [
+    {
+      "id": 1,
+      "department_id": 5,
+      "year": 2026,
+      "category": "Supplies",
+      "description": "Medical Grade Disposable Facemasks (50pcs/box)",
+      "unit": "box",
+      "unit_cost": 150,
+      "q1_qty": 100,
+      "q2_qty": 100,
+      "q3_qty": 100,
+      "q4_qty": 100,
+      "total_qty": 400,
+      "total_cost": 60000,
+      "mode_of_procurement": "Shopping",
+      "source_of_funds": "General Fund",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 2,
+      "department_id": 5,
+      "year": 2026,
+      "category": "Equipment",
+      "description": "Defibrillator Automated External (AED)",
+      "unit": "unit",
+      "unit_cost": 120000,
+      "q1_qty": 1,
+      "q2_qty": 0,
+      "q3_qty": 0,
+      "q4_qty": 0,
+      "total_qty": 1,
+      "total_cost": 120000,
+      "mode_of_procurement": "Small Value Procurement",
+      "source_of_funds": "General Fund",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 3,
+      "department_id": 1,
+      "year": 2026,
+      "category": "Supplies",
+      "description": "Premium A4 Copy Paper 80gsm",
+      "unit": "ream",
+      "unit_cost": 220,
+      "q1_qty": 50,
+      "q2_qty": 50,
+      "q3_qty": 50,
+      "q4_qty": 50,
+      "total_qty": 200,
+      "total_cost": 44000,
+      "mode_of_procurement": "Shopping",
+      "source_of_funds": "General Fund",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 4,
+      "department_id": 1,
+      "year": 2026,
+      "category": "Equipment",
+      "description": "Heavy Duty Office Laptop i7 16GB RAM",
+      "unit": "unit",
+      "unit_cost": 65000,
+      "q1_qty": 2,
+      "q2_qty": 0,
+      "q3_qty": 1,
+      "q4_qty": 0,
+      "total_qty": 3,
+      "total_cost": 195000,
+      "mode_of_procurement": "Small Value Procurement",
+      "source_of_funds": "General Fund",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 5,
+      "department_id": 6,
+      "year": 2026,
+      "category": "Infra",
+      "description": "Rehabilitation of Municipal Hall Lobby",
+      "unit": "lot",
+      "unit_cost": 450000,
+      "q1_qty": 0,
+      "q2_qty": 1,
+      "q3_qty": 0,
+      "q4_qty": 0,
+      "total_qty": 1,
+      "total_cost": 450000,
+      "mode_of_procurement": "Public Bidding",
+      "source_of_funds": "Special Education Fund",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "purchase_requests": [
+    {
+      "id": 1,
+      "pr_no": "2026-07-0001",
+      "date": "2026-07-01",
+      "department_id": 5,
+      "section": "Clinic",
+      "purpose": "For emergency response units in various barangays.",
+      "requested_by_name": "Dr. Elena S. Perez",
+      "requested_by_designation": "Municipal Health Officer",
+      "approved_by_name": "Hon. Johnielle Keith Pasion Nieto",
+      "approved_by_designation": "Municipal Mayor",
+      "status": "Approved",
+      "alobs_number": "ALOBS-26-07-0105",
+      "alobs_date": "2026-07-02",
+      "mode_of_procurement": "Small Value Procurement",
+      "remarks": "Funding cleared by Budget Office and Approved by Mayor.",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 2,
+      "pr_no": "2026-07-0002",
+      "date": "2026-07-03",
+      "department_id": 1,
+      "section": "Administrative",
+      "purpose": "To upgrade executive staff computers for efficient report writing.",
+      "requested_by_name": "Hon. Johnielle Keith Pasion Nieto",
+      "requested_by_designation": "Municipal Mayor",
+      "approved_by_name": "Hon. Johnielle Keith Pasion Nieto",
+      "approved_by_designation": "Municipal Mayor",
+      "status": "Budget_Review",
+      "alobs_number": null,
+      "alobs_date": null,
+      "mode_of_procurement": null,
+      "remarks": null,
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "pr_items": [
+    {
+      "id": 1,
+      "pr_id": 1,
+      "ppmp_item_id": 2,
+      "item_no": 1,
+      "unit": "unit",
+      "description": "Defibrillator Automated External (AED)",
+      "quantity": 1,
+      "unit_cost": 120000,
+      "total_cost": 120000
+    },
+    {
+      "id": 2,
+      "pr_id": 2,
+      "ppmp_item_id": 4,
+      "item_no": 1,
+      "unit": "unit",
+      "description": "Heavy Duty Office Laptop i7 16GB RAM",
+      "quantity": 2,
+      "unit_cost": 65000,
+      "total_cost": 130000
+    }
+  ],
+  "rfq_records": [
+    {
+      "id": 1,
+      "rfq_no": "RFQ-2026-07-0001",
+      "pr_id": 1,
+      "open_date": "2026-07-03",
+      "close_date": "2026-07-10",
+      "status": "Published",
+      "terms_and_conditions": "1. All entries must be typewritten or legibly written.\n2. Delivery period within 15 calendar days.\n3. Warranty shall be for a period of six (6) months for supplies & materials, one (1) year for equipment.\n4. Price validity shall be for a period of 60 calendar days.",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "rfq_items": [
+    {
+      "id": 1,
+      "rfq_id": 1,
+      "pr_item_id": 1,
+      "item_no": 1,
+      "unit": "unit",
+      "description": "Defibrillator Automated External (AED)",
+      "quantity": 1
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Manila Medical Equipment Corp.",
+      "address": "124 Rizal Ave, Manila",
+      "tin": "111-222-333-000",
+      "contact_person": "Juan Dela Cruz",
+      "contact_no": "0917-123-4567",
+      "email": "juan@manilamedical.com",
+      "performance_rating": 0,
+      "performance_notes": null,
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 2,
+      "name": "Northern Health Supplies Inc.",
+      "address": "45 Sessions Road, Baguio City",
+      "tin": "444-555-666-000",
+      "contact_person": "Maria Santos",
+      "contact_no": "0918-987-6543",
+      "email": "maria@northernhealth.ph",
+      "performance_rating": 0,
+      "performance_notes": null,
+      "created_at": "2026-07-07T03:28:32.193Z"
+    },
+    {
+      "id": 3,
+      "name": "Apex Diagnostics Philippines",
+      "address": "789 EDSA, Quezon City",
+      "tin": "777-888-999-000",
+      "contact_person": "David Lim",
+      "contact_no": "0922-333-4444",
+      "email": "sales@apexdiag.ph",
+      "performance_rating": 0,
+      "performance_notes": null,
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "abstract_bids": [
+    {
+      "id": 1,
+      "rfq_id": 1,
+      "supplier_id": 1,
+      "pr_item_id": 1,
+      "offered_unit_price": 118000,
+      "offered_total_price": 118000,
+      "is_compliant": true,
+      "is_lowest_bidder": true,
+      "remarks": "Compliant with all technical specs."
+    },
+    {
+      "id": 2,
+      "rfq_id": 1,
+      "supplier_id": 2,
+      "pr_item_id": 1,
+      "offered_unit_price": 119500,
+      "offered_total_price": 119500,
+      "is_compliant": true,
+      "is_lowest_bidder": false,
+      "remarks": "Compliant. Slower delivery terms."
+    },
+    {
+      "id": 3,
+      "rfq_id": 1,
+      "supplier_id": 3,
+      "pr_item_id": 1,
+      "offered_unit_price": 125000,
+      "offered_total_price": 125000,
+      "is_compliant": false,
+      "is_lowest_bidder": false,
+      "remarks": "Disqualified. Price exceeds Approved Budget for Contract (ABC) of 120,000.00"
+    }
+  ],
+  "bac_resolutions": [
+    {
+      "id": 1,
+      "resolution_no": "BAC-2026-0089",
+      "rfq_id": 1,
+      "date_passed": "2026-07-12",
+      "winning_supplier_id": 1,
+      "type_of_bidding": "Alternative Mode - Small Value Procurement",
+      "justification": "Manila Medical Equipment Corp. submitted the Lowest Calculated and Responsive Bid (LCRB) complying with all required technical specifications.",
+      "status": "Signed",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "notices_of_award": [
+    {
+      "id": 1,
+      "noa_no": "NOA-2026-0045",
+      "bac_resolution_id": 1,
+      "rfq_id": 1,
+      "supplier_id": 1,
+      "date_issued": "2026-07-14",
+      "status": "Accepted",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "purchase_orders": [
+    {
+      "id": 1,
+      "po_no": "PO-2026-07-0001",
+      "pr_id": 1,
+      "noa_id": 1,
+      "supplier_id": 1,
+      "po_date": "2026-07-15",
+      "mode_of_procurement": "Small Value Procurement",
+      "delivery_place": "Municipal Hall, Supply Office",
+      "delivery_term": "15 Calendar Days upon receipt of NTP",
+      "payment_term": "Charge Account (COA standard)",
+      "penalty_clause": "In case of failure to make the full delivery within the time specified above, a penalty of one-tenth (1/10) of one percent for every day of delay shall be imposed on the undelivered item/s.",
+      "status": "Signed",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "po_items": [
+    {
+      "id": 1,
+      "po_id": 1,
+      "pr_item_id": 1,
+      "quantity": 1,
+      "unit_cost": 118000,
+      "total_cost": 118000
+    }
+  ],
+  "notices_to_proceed": [
+    {
+      "id": 1,
+      "ntp_no": "NTP-2026-0038",
+      "po_id": 1,
+      "date_issued": "2026-07-16",
+      "delivery_period_days": 15,
+      "status": "Active",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "iar_records": [
+    {
+      "id": 1,
+      "iar_no": "IAR-2026-07-0001",
+      "po_id": 1,
+      "invoice_no": "INV-998822",
+      "invoice_date": "2026-07-20",
+      "date_inspected": "2026-07-21",
+      "date_accepted": "2026-07-21",
+      "inspection_remarks": "All components verified brand new, working, and matching required medical-grade specifications.",
+      "acceptance_remarks": "Inspected, accepted and turned over to GSO Inventory.",
+      "status": "Completed",
+      "inspected_by": "LGU Inspection Committee",
+      "accepted_by": "Municipal Supply Officer",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "iar_items": [
+    {
+      "id": 1,
+      "iar_id": 1,
+      "po_item_id": 1,
+      "quantity_delivered": 1,
+      "is_accepted": true
+    }
+  ],
+  "inventory_assets": [
+    {
+      "id": 1,
+      "iar_item_id": 1,
+      "property_no": "LGU-2026-0001",
+      "description": "Defibrillator Automated External (AED) - Serial SN-AED99881",
+      "unit": "unit",
+      "cost": 118000,
+      "date_acquired": "2026-07-21",
+      "type": "PAR",
+      "assigned_to_user_id": 5,
+      "receiver_name": "Dr. Elena S. Perez",
+      "receiver_designation": "Municipal Health Officer",
+      "issuer_name": "Arthur N. Ramos",
+      "status": "Active",
+      "created_at": "2026-07-07T03:28:32.193Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": 1,
+      "table_name": "purchase_requests",
+      "record_id": 1,
+      "action": "STATUS_CHANGE",
+      "old_value": "Pending",
+      "new_value": "Budget_Review",
+      "user_role": "Budget Officer",
+      "user_name": "Engr. Roberto D. Santos",
+      "timestamp": "2026-07-01T10:30:00.000Z"
+    },
+    {
+      "id": 2,
+      "table_name": "purchase_requests",
+      "record_id": 1,
+      "action": "STATUS_CHANGE",
+      "old_value": "Budget_Review",
+      "new_value": "GSO_Review",
+      "user_role": "GSO Procurement Officer",
+      "user_name": "Mr. Arthur N. Ramos",
+      "timestamp": "2026-07-02T11:45:00.000Z"
+    },
+    {
+      "id": 3,
+      "table_name": "purchase_requests",
+      "record_id": 1,
+      "action": "STATUS_CHANGE",
+      "old_value": "GSO_Review",
+      "new_value": "Approved",
+      "user_role": "Municipal Mayor",
+      "user_name": "Hon. Johnielle Keith Pasion Nieto",
+      "timestamp": "2026-07-02T15:20:00.000Z"
+    },
+    {
+      "id": 4,
+      "table_name": "purchase_orders",
+      "record_id": 1,
+      "action": "STATUS_CHANGE",
+      "old_value": "Draft",
+      "new_value": "Signed",
+      "user_role": "General Services Officer",
+      "user_name": "Mr. Arthur N. Ramos",
+      "timestamp": "2026-07-15T09:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "table_name": "iar_records",
+      "record_id": 1,
+      "action": "STATUS_CHANGE",
+      "old_value": "Draft",
+      "new_value": "Completed",
+      "user_role": "GSO Supply Officer",
+      "user_name": "Mr. Arthur N. Ramos",
+      "timestamp": "2026-07-21T16:10:00.000Z"
+    }
+  ],
+  "notifications": [],
+  "users": [
+    {
+      "id": 1,
+      "username": "enduser",
+      "password_hash": "15b4baa52c9496ead5adf3920985f7573cc8b44b68d38b10b6661e265c2ee00e",
+      "salt": "salt1",
+      "name": "Dr. Elena Perez",
+      "role": "End User",
+      "department_id": 5,
+      "created_at": "2026-07-07T03:28:32.195Z"
+    },
+    {
+      "id": 2,
+      "username": "gso",
+      "password_hash": "5858e9b0276f27e634ebde78dd72de0541c97e045acd0d7806e0cc6b219bf619",
+      "salt": "salt2",
+      "name": "Arthur N. Ramos",
+      "role": "GSO Officer",
+      "department_id": 4,
+      "created_at": "2026-07-07T03:28:32.195Z"
+    },
+    {
+      "id": 3,
+      "username": "bac",
+      "password_hash": "2b64380d55fdca8924072e14fb144f53856c64f5dc9787b71b80557f22b3cc40",
+      "salt": "salt3",
+      "name": "Atty. Susan Cruz",
+      "role": "BAC Secretariat",
+      "department_id": null,
+      "created_at": "2026-07-07T03:28:32.195Z"
+    },
+    {
+      "id": 4,
+      "username": "budget",
+      "password_hash": "1bca546aa483661f915983d206bc54058f91aa8a8551fa0d983bb47bcd4ae771",
+      "salt": "salt4",
+      "name": "Engr. Roberto D. Santos",
+      "role": "Budget Officer",
+      "department_id": 2,
+      "created_at": "2026-07-07T03:28:32.195Z"
+    },
+    {
+      "id": 5,
+      "username": "mayor",
+      "password_hash": "18a5ad040093142c283378380dfe7ca9b48ecc683f0f5e966daf2f6243f358a8",
+      "salt": "salt5",
+      "name": "Hon. Johnielle Keith Pasion Nieto",
+      "role": "Mayor",
+      "department_id": 1,
+      "created_at": "2026-07-07T03:28:32.195Z"
+    }
+  ],
+  "philgeps_postings": [],
+  "system_settings": [
+    {
+      "id": 1,
+      "system_name": "GovProcure MS",
+      "municipal_name": "MUNICIPALITY OF SAN JOSE",
+      "province_name": "Province of Bulacan",
+      "mayor_name": "HON. Johnielle Keith Pasion Nieto",
+      "gso_officer_name": "Arthur N. Ramos",
+      "budget_officer_name": "Engr. Roberto D. Santos",
+      "accountant_name": "Mrs. Teresa V. Jose",
+      "bac_chairman_name": "Atty. Susan Cruz",
+      "treasurer_name": "Mr. Arthur N. Ramos",
+      "penalty_clause_text": "A penalty of one-tenth (1/10) of one percent (1%) of the total value of the delayed goods/services for every day of delay shall be imposed."
+    }
+  ]
+}

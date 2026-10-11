@@ -1,0 +1,4 @@
+USE `procurement_management_ocr`;
+
+ALTER TABLE users
+    ADD COLUMN IF NOT EXISTS email VARCHAR(255) DEFAULT NULL UNIQUE AFTER name;

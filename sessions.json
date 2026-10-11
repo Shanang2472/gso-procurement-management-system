@@ -1,0 +1,65 @@
+{
+  "eyJpZCI6MiwidXNlcm5hbWUiOiJnc28iLCJuYW1lIjoiQXJ0aHVyIE4uIFJhbW9zIiwicm9sZSI6IkdTTyBPZmZpY2VyIiwiZGVwYXJ0bWVudF9pZCI6NCwic2FsdCI6IjgxNmZmNjk2ZjVhYzk0ZWUifQ==": {
+    "id": 2,
+    "username": "gso",
+    "name": "Arthur N. Ramos",
+    "role": "GSO Officer",
+    "department_id": 4
+  },
+  "eyJpZCI6NSwidXNlcm5hbWUiOiJtYXlvciIsIm5hbWUiOiJIb24uIE1hcmlhIExvdXJkZXMgRy4gQ3J1eiIsInJvbGUiOiJNYXlvciIsImRlcGFydG1lbnRfaWQiOjEsInNhbHQiOiJiZDU5NjVkM2VhNzE3Yzg4In0=": {
+    "id": 5,
+    "username": "mayor",
+    "name": "Hon. Johnielle Keith Pasion Nieto",
+    "role": "Mayor",
+    "department_id": 1
+  },
+  "eyJpZCI6NSwidXNlcm5hbWUiOiJOaWV0byIsIm5hbWUiOiJIb24uIE1hcmlhIExvdXJkZXMgRy4gQ3J1eiIsInJvbGUiOiJNYXlvciIsImRlcGFydG1lbnRfaWQiOjEsInNhbHQiOiJlOTc4ZDY0ZDgxNmNjYTI2In0=": {
+    "id": 5,
+    "username": "Nieto",
+    "name": "Hon. Maria Lourdes G. Cruz",
+    "role": "Mayor",
+    "department_id": 1
+  },
+  "eyJpZCI6MSwidXNlcm5hbWUiOiJKdWFuIGRlbGEgY3J1eiIsIm5hbWUiOiJKdWFuIGRlbGEgY3J1eiIsInJvbGUiOiJFbmQgVXNlciIsImRlcGFydG1lbnRfaWQiOjUsInNhbHQiOiI1YjE0YThiNThmOTJhYTY5In0=": {
+    "id": 1,
+    "username": "Juan dela cruz",
+    "name": "Juan dela cruz",
+    "role": "End User",
+    "department_id": 5
+  },
+  "eyJpZCI6MSwidXNlcm5hbWUiOiJKdWFuIGRlbGEgY3J1eiIsIm5hbWUiOiJKdWFuIGRlbGEgY3J1eiIsInJvbGUiOiJFbmQgVXNlciIsImRlcGFydG1lbnRfaWQiOjUsInNhbHQiOiJkZmQ3YTNkODRiMDVjNmI5In0=": {
+    "id": 1,
+    "username": "Juan dela cruz",
+    "name": "Juan dela cruz",
+    "role": "End User",
+    "department_id": 5
+  },
+  "eyJpZCI6NSwidXNlcm5hbWUiOiJOaWV0byIsIm5hbWUiOiJIT04uIEpvaG5pZWxsZSBLZWl0aCBQYXNpb24gTmlldG8iLCJyb2xlIjoiTWF5b3IiLCJkZXBhcnRtZW50X2lkIjoxLCJzYWx0IjoiZDJlODRkN2NkNjllNmUzYyJ9": {
+    "id": 5,
+    "username": "Nieto",
+    "name": "HON. Johnielle Keith Pasion Nieto",
+    "role": "Mayor",
+    "department_id": 1
+  },
+  "eyJpZCI6NSwidXNlcm5hbWUiOiJOaWV0byIsIm5hbWUiOiJIT04uIEpvaG5pZWxsZSBLZWl0aCBQYXNpb24gTmlldG8iLCJyb2xlIjoiTWF5b3IiLCJkZXBhcnRtZW50X2lkIjoxLCJzYWx0IjoiMmI0OTVmY2M3MjA5ZTFlZSJ9": {
+    "id": 5,
+    "username": "Nieto",
+    "name": "HON. Johnielle Keith Pasion Nieto",
+    "role": "Mayor",
+    "department_id": 1
+  },
+  "eyJpZCI6NSwidXNlcm5hbWUiOiJOaWV0byIsIm5hbWUiOiJIT04uIEpvaG5pZWxsZSBLZWl0aCBQYXNpb24gTmlldG8iLCJyb2xlIjoiTWF5b3IiLCJkZXBhcnRtZW50X2lkIjoxLCJzYWx0IjoiMDA1YzE5MjEyZGY2MzIwZCJ9": {
+    "id": 5,
+    "username": "Nieto",
+    "name": "HON. Johnielle Keith Pasion Nieto",
+    "role": "Mayor",
+    "department_id": 1
+  },
+  "eyJpZCI6NSwidXNlcm5hbWUiOiJOaWV0byIsIm5hbWUiOiJIT04uIEpvaG5pZWxsZSBLZWl0aCBQYXNpb24gTmlldG8iLCJyb2xlIjoiTWF5b3IiLCJkZXBhcnRtZW50X2lkIjoxLCJzYWx0IjoiOWJjZTZhNDA3ZWVjMjRlNCJ9": {
+    "id": 5,
+    "username": "Nieto",
+    "name": "HON. Johnielle Keith Pasion Nieto",
+    "role": "Mayor",
+    "department_id": 1
+  }
+}

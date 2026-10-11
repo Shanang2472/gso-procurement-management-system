@@ -1,0 +1,52 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch server.ts",
+    "build": "vite build && esbuild server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "start": "node dist/server.cjs",
+    "clean": "rm -rf dist server.js",
+    "db:verify": "node scripts/verify-database.mjs",
+    "db:backup": "powershell -ExecutionPolicy Bypass -File scripts/backup-database.ps1",
+    "lint": "tsc --noEmit",
+    "test:workflow": "tsx src/workflowRules.test.ts",
+    "test:supplier": "tsx src/supplierPortalRules.test.ts",
+    "test:documents": "tsx src/documentRules.test.ts",
+    "test:encryption": "tsx src/documentEncryption.test.ts",
+    "test:ocr": "tsx src/ocr.test.ts"
+    ,"test:finance": "tsx src/financeRules.test.ts",
+    "test:reporting": "tsx src/reportingRules.test.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/vite": "^4.1.14",
+    "@types/nodemailer": "^8.0.1",
+    "@vitejs/plugin-react": "^5.0.4",
+    "dotenv": "^17.2.3",
+    "express": "^4.21.2",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "mysql2": "^3.22.5",
+    "nodemailer": "^10.0.0",
+    "pdf-to-img": "^7.0.0",
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "recharts": "^3.9.2",
+    "tesseract.js": "^7.0.0",
+    "vite": "^6.2.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.14.0",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.21",
+    "esbuild": "^0.25.0",
+    "tailwindcss": "^4.1.14",
+    "tsx": "^4.21.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "GSO Procurement Management System",
+  "description": "Enterprise-grade GSO Procurement Management System for Philippine LGUs, strictly adhering to RA 9184 and COA guidelines, featuring PPMP, APP, PR, RFQ, Abstract of Canvass, BAC Resolution, NOA, PO, NTP, IAR, ICS/PAR, and dynamic audit logs.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

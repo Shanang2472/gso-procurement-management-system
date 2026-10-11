@@ -1,0 +1,313 @@
+@import "tailwindcss";
+
+:root {
+	font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+	color: #172033;
+	background: #f4f7fb;
+	font-synthesis: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	min-width: 320px;
+	background: #f4f7fb;
+}
+
+@keyframes trackerPulse {
+	0%, 100% {
+		transform: scale(1);
+		box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.28);
+	}
+	50% {
+		transform: scale(1.08);
+		box-shadow: 0 0 0 10px rgba(37, 99, 235, 0.06);
+	}
+}
+
+button,
+input,
+select,
+textarea {
+	font: inherit;
+}
+
+.app-shell {
+	background: #f4f7fb;
+}
+
+.app-sidebar {
+	background: #ffffff !important;
+	color: #526078 !important;
+	border-right: 1px solid #e5eaf2;
+	box-shadow: 10px 0 30px rgba(38, 56, 85, 0.04);
+}
+
+.app-sidebar .app-brand,
+.app-sidebar .app-sidebar-footer {
+	background: #ffffff !important;
+	border-color: #e8edf4 !important;
+}
+
+.app-sidebar .text-slate-300,
+.app-sidebar .text-slate-400 {
+	color: #526078 !important;
+}
+
+.app-sidebar .text-slate-500 {
+	color: #8a96aa !important;
+}
+
+.app-sidebar .text-slate-100,
+.app-sidebar .text-slate-200 {
+	color: #172033 !important;
+}
+
+.app-sidebar nav button {
+	min-height: 38px;
+	border: 1px solid transparent;
+	font-weight: 600;
+}
+
+.app-sidebar nav button:hover {
+	background: #f1f5fb !important;
+	color: #174ea6 !important;
+}
+
+.app-sidebar nav button.bg-blue-600,
+.app-sidebar nav button.bg-indigo-600,
+.app-sidebar nav button.bg-amber-600,
+.app-sidebar nav button.bg-red-700 {
+	background: #eaf2ff !important;
+	color: #1455a0 !important;
+	border-color: #cfe0fb;
+	box-shadow: inset 3px 0 0 #2563eb;
+}
+
+.app-sidebar nav button.bg-blue-600 svg,
+.app-sidebar nav button.bg-indigo-600 svg,
+.app-sidebar nav button.bg-amber-600 svg,
+.app-sidebar nav button.bg-red-700 svg {
+	color: #2563eb !important;
+}
+
+.app-sidebar .bg-slate-800 {
+	background: #f1f5fb !important;
+	color: #526078 !important;
+}
+
+.app-sidebar .border-dashed {
+	border-color: #f3b5b5 !important;
+}
+
+.app-header {
+	box-shadow: 0 1px 0 rgba(38, 56, 85, 0.02);
+}
+
+.app-content {
+	background: #f4f7fb;
+}
+
+.mobile-menu-button,
+.mobile-nav-backdrop {
+	display: none;
+}
+
+@media (max-width: 900px) {
+	.app-header {
+		height: auto;
+		min-height: 64px;
+		padding: 14px 18px;
+		gap: 14px;
+	}
+
+	.app-eyebrow {
+		display: none;
+	}
+
+	.app-header h2 {
+		font-size: 0.95rem;
+		line-height: 1.25;
+	}
+}
+
+@media (max-width: 640px) {
+	.app-sidebar {
+		position: fixed;
+		inset: 0 auto 0 0;
+		z-index: 40;
+		width: min(82vw, 300px);
+		transform: translateX(-105%);
+		transition: transform 180ms ease;
+		box-shadow: 18px 0 40px rgba(15, 23, 42, 0.18);
+	}
+
+	.app-sidebar.is-open {
+		transform: translateX(0);
+	}
+
+	.mobile-nav-backdrop {
+		position: fixed;
+		inset: 0;
+		z-index: 30;
+		border: 0;
+		background: rgba(15, 23, 42, 0.42);
+	}
+
+	.mobile-nav-backdrop.is-open {
+		display: block;
+	}
+
+	.mobile-menu-button {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		width: 38px;
+		height: 38px;
+		flex: 0 0 auto;
+		color: #174ea6;
+		background: #eff6ff;
+		border: 1px solid #dbeafe;
+		border-radius: 10px;
+	}
+
+	.app-shell,
+	.app-main {
+		width: 100%;
+		min-width: 0;
+	}
+
+	.app-content {
+		overflow-y: auto;
+		overflow-x: hidden;
+	}
+
+	.app-content > div,
+	.app-content > div > .flex-1 {
+		width: 100%;
+		min-height: max-content;
+		flex: none;
+		overflow: visible;
+	}
+
+	.mobile-stack-layout {
+		overflow: visible;
+	}
+
+	.mobile-form-panel {
+		width: 100%;
+		flex: none;
+		border-right: 0;
+		border-bottom: 1px solid #e2e8f0;
+		padding: 16px;
+		overflow: visible;
+	}
+
+	.mobile-form-panel + div {
+		width: 100%;
+		flex: none;
+		padding: 16px;
+		overflow: visible;
+	}
+
+	.app-header {
+		padding: 10px 12px;
+		gap: 8px;
+	}
+
+	.app-header > div:first-child {
+		min-width: 0;
+		gap: 9px;
+	}
+
+	.app-header h2 {
+		font-size: 0.82rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	.app-header > div:last-child {
+		gap: 6px;
+		flex: 0 0 auto;
+	}
+
+	.app-header > div:last-child > span {
+		display: none;
+	}
+
+	.app-header > div:last-child button {
+		font-size: 0.68rem;
+		padding: 9px 10px;
+		white-space: nowrap;
+	}
+
+	.app-content table {
+		min-width: 720px;
+	}
+
+	.app-content .overflow-x-auto {
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.app-content input,
+	.app-content select,
+	.app-content textarea,
+	.app-content button {
+		min-height: 40px;
+	}
+
+	.app-content input,
+	.app-content select,
+	.app-content textarea {
+		font-size: 16px;
+	}
+
+	.app-brand {
+		padding: 14px !important;
+	}
+
+	.app-brand h1 {
+		font-size: 0.75rem;
+	}
+
+	.app-sidebar nav {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+
+	.app-sidebar nav button {
+		font-size: 0.68rem;
+		gap: 8px;
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+
+	.app-header > div:last-child > span {
+		display: none;
+	}
+
+	.app-header > div:last-child button {
+		font-size: 0.68rem;
+		padding: 8px 10px;
+	}
+}
+
+.login-shell {
+	background-color: #f4f8fc;
+	background-image: linear-gradient(135deg, rgba(219, 234, 254, 0.7), transparent 42%), linear-gradient(rgba(148, 163, 184, 0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(148, 163, 184, 0.08) 1px, transparent 1px);
+	background-size: auto, 32px 32px, 32px 32px;
+}
+
+.login-visual {
+	background: linear-gradient(145deg, #e0f2fe 0%, #eff6ff 58%, #f8fafc 100%);
+}
+
+@media (max-width: 1023px) {
+	.login-visual {
+		min-height: 220px;
+	}
+}
